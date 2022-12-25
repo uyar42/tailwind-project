@@ -2,12 +2,12 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    container:{
-      center:true,
-      screens:{
-        lg:'1140px', 
-        xl:'140px',
-        '2xl':'1140px',
+    container: {
+      center: true,
+      screens: {
+        lg: "1140px",
+        xl: "140px",
+        "2xl": "1140px",
       },
     },
     extend: {
@@ -20,6 +20,9 @@ module.exports = {
         "gega-melon": "#FFD369",
         "gega-grey": "#DDDDDD",
         "gega-white": "#EZEZEZ",
+      },
+      spacing:{
+        '128':'32rem'
       },
     },
   },
